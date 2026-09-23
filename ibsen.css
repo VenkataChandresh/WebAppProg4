@@ -48,3 +48,10 @@
 .character-table tr:nth-child(even) {
     background-color: whitesmoke;
 }
+
+.name:hover {
+    text-shadow: 2px 2px 6px currentColor;
+    border: 2px solid currentColor;
+    border-radius: 6px;
+    padding: 4px 8px;
+}
